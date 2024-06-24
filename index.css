@@ -1,0 +1,164 @@
+* {
+    font-family: "karla";
+}
+
+body {
+   display: flex;
+justify-content: center;
+    background-color: #E0F1E8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    /* width: 736px; */
+    height: 773px;
+    /* margin: 40px; */
+    background-color: #fff;
+}
+
+#general-enquiry, #support-request {
+margin: 0 12px 0 0;}
+
+ .general-inquiry-label {
+    border-width: solid;
+}
+
+.first-name, .last-name, .email-address, .consent-label, .query-label, .message-label {
+    font-size: 16px;
+    color: #2A4144;
+}
+
+ #last-name, #first-name, #email-address, #message-box {
+    border-radius: 8px;
+    border: 1px solid #86A2A5;
+    /* border-color: #86A2A5;
+    border-width: 5px; */
+    padding: 8px;
+    height: 51px;
+ }
+
+.first-and-last-name {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+#first-name, #last-name {
+    width: 100%;
+    margin-top: 8px;
+}
+#first-name:hover, #last-name:hover {
+    border-color: #0C7D69;
+}
+
+.name-class {
+    flex-grow: 1;
+}
+.email-address-container {
+    margin-top: 24px;
+}
+
+#email-address {
+width: 100%;
+margin-top: 8px;
+}
+#email-address:hover {
+    border-color: #0C7D69;
+}
+
+.general-query {
+    margin-top: 24px;
+}
+
+.message {
+    margin-top: 24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 16px; */
+}
+
+button {
+    width: 100%;
+    background-color: #0C7D69;
+    color: #fff;
+    padding: 16px 0 16px 0;
+    border-radius: 8px;
+    border:none;
+}
+
+button:hover {
+    background-color: #063E34;
+}
+
+.query-type {
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.query-type-container {
+    display: flex;
+    align-items: center;
+padding: 12px 24px 12px 24px;
+    border: solid;
+    border-color: #86A2A5;
+    border-radius: 8px;
+    border-width: 1px;
+    width: 100%;
+    /* height: 51px; */
+}
+.query-type-container:hover {
+    border-color: #0C7D69;
+}
+
+#message-box {
+    width: 100%;
+    height: 128px;
+     margin-top: 8px;
+}
+
+.contact-us-container {
+}
+
+.attribution {
+    margin-top: 40px;
+}
+
+.contact-us {
+    color: #2A4144;
+font-size: 32px;
+font-weight: bold;
+margin: 0;
+}
+
+#message-box {
+    margin-top: 8px;
+}
+
+#checkbox {
+    margin: 0;
+}
+
+.consent {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 40px 0;
+    gap: 16px;
+}
+
+.form-container {
+    width: 656px;
+    padding: 40px 40px 0 40px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  .attribution {
+    width: 100%;
+  }
